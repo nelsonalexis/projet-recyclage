@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Galerie</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+        <script  src="js/lightbox-plus-jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/galerie.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+
+        <style>
+            .portfolio-gallery {
+              margin: 10px 40px;
+              
+    object-fit: cover;
+    object-position: 100% 0;
+            }
+            
+            .portfolio-gallery img {
+                transition: 1s;
+                padding: 5px;
+            }
+            
+            .portfolio-gallery .item .inner img:hover {
+                filter: drop-shadow(4px 4px 6px gray);
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <header>
+            <nav class="navbar">
+                <div class="content">
+                  <div class="logo">
+                    <a href="#">Update</a>
+                  </div>
+                  <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                  <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        
+        <div class="intro">
+          <h1>Notre belle galerie</h1>
+        </div>
+        
+
+        <section class="portfolio" id="Portfolio">
+          <div class="container">
+              <div class="row">
+                  <div class="section-title text-center">
+                      <h1>Galerie Photo &#38; Video </h1>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="filter-buttons">
+                      <ul id="filter-btns">
+                          <li class="active" data-target="all">TOUT</li>
+                          <li data-target="atelier">ATELIERS</li>
+                          <li data-target="defile">DEFILE</li>
+                          <li data-target="conference">CONFERENCE</li>
+                          <li data-target="video">VIDEO</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="portfolio-gallery">
+                      <!----------------------Le défilé---------------------------------------->
+                      <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/gal-def-1.jpg" alt="portfolio" class="myImg"></div>
+                      </div>
+
+                      <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/gal-def-2.jpg" alt="portfolio"></a></div>
+                      </div>
+
+                      <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/gal-def-3.jpg" alt="portfolio"></a></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/gal-def-4.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/gal-def-5.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/gal-def-6.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/gal-def-7.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-40.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-44.jpg" alt="portfolio"></div>
+                      </div>
+                        <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-45.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-47.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-50.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-51.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-52.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-58.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-59.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-62.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-63.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-64.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-66.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-67.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-70.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-71.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-72.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-74.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-75.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-76.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-80.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-79.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-82.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-85.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-86.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-87.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-88.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-89.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-90.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-93.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-97.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-218.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-100.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-101.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-102.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                          <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-103.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-104.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-105.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-106.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-107.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-108.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-109.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-110.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-112.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-113.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-114.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-115.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-116.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-117.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-118.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-119.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-122.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-123.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-124.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-126.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-127.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-129.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-130.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-131.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-132.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-135.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-136.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-137.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-138.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-140.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-142.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-144.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-145.jpg" alt="portfolio"></div>
+                     </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-146.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-147.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-149.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-150.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-153.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-154.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-94.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-209.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="defile">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-214.jpg" alt="portfolio"></div>
+                      </div>
+                      
+
+                      <!-------------------------La conférence------------------------------->
+
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/gal-conf-1.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-16.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-15.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-18.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-24.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-25.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-13.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-27.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-28.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="conference">
+                        <div class="inner" data-aos="fade-in"><img src="../img/IUT BOBIGNY EVENT_-22.jpg" alt="portfolio"></div>
+                      </div>
+                      
+
+
+                      <!------------------------Les ateliers----------------------------->
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo1.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo2.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo3.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo4.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo5.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo6.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo7.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo8.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo9.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo10.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo11.jpg" alt="portfolio"></div>
+                      </div>
+                      <div class="item" data-id="atelier">
+                        <div class="inner" data-aos="fade-in"><img src="../img/jpo12.jpg" alt="portfolio"></div>
+                      </div>
+
+                      <!----------------------------Vidéos------------------------------->
+                      <div class="item" data-id="video">
+                        <div class="inner" data-aos="fade-in"><video src="../video/video1.mp4" alt="portfolio" controls></div>
+                    </div>
+                    <div class="item" data-id="video">
+                        <div class="inner"data-aos="fade-in"><video src="../video/video2.mp4" alt="portfolio" controls></div>
+                    </div>
+                    <div class="item" data-id="video">
+                        <div class="inner" data-aos="fade-in"><video src="../video/video3.mp4" alt="portfolio" controls></div>
+                    </div>
+    
+                </div>
+              </div>
+          </div>
+
+        </section>
+
+        <footer class="footer-distributed">
+
+          <div class="footer-left">
+              <img src="../img/logo.png">
+            <h3>Update</h3>
+    
+            <p class="footer-links">
+              <a href="../index.html">Accueil</a>
+              |
+              <a href="#">A propos</a>
+              |
+              <a href="#">Actualités</a>
+              |
+              <a href="galerie.html">Galerie</a>
+                        |
+              <a href="blog.html">Blog</a>
+                        |
+              <a href="contact.html">Contact</a>
+            </p>
+    
+            <p class="footer-company-name">Mentions légales</p>
+          </div>
+    
+          <div class="footer-center">
+            <div>
+              <i class="fa fa-map-marker"></i>
+                <p><span>74 Rue Marcel Cachin</span>
+                93000 Bobigny</p>
+            </div>
+    
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+33 766221934</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p><a class="mess" href="mailto:support@eduonix.com">atelier_sweetpea@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="footer-right">
+            <p class="footer-company-about">
+              <span>A propos du projet</span>
+              Nous sommes un projet de mode écoresponsable basé sur l'Upcycling. Ensemble, faisons de la planète un monde meilleur</p>
+            <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+          </div>
+        </footer>
+        
+          <script>
+            const filterButtons = document.querySelector("#filter-btns").children;
+            const items = document.querySelector(".portfolio-gallery").children;
+  
+            for (let i = 0; i < filterButtons.length; i++) {
+                filterButtons[i].addEventListener("click", function () {
+                    for (let j = 0; j < filterButtons.length; j++) {
+                        filterButtons[j].classList.remove("active")
+                    }
+                    this.classList.add("active");
+                    const target = this.getAttribute("data-target")
+              
+                    for (let k = 0; k < items.length; k++) {
+                        items[k].style.display = "none";
+                        if (target == items[k].getAttribute("data-id")) {
+                            items[k].style.display = "block";
+                        }
+                        if (target == "all") {
+                            items[k].style.display = "block";
+                        }
+                    }
+              
+                })
+            }
+           </script>
+           <script src="../js/main.js"></script>
+           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+           <script>AOS.init();</script>
+
+      </section>
+  
+
+    </body>
+</html>
